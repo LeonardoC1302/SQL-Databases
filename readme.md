@@ -9,3 +9,12 @@
     - Used to start using a database for the following commands
 - SHOW TABLES;
     - Used to show all tables of the current database (selected)
+- CREATE TABLE \<name> ( 
+    1. id INT(11) NOT NULL AUTO_INCREMENT,
+    2. name VARCHAR(60) NOT NULL,
+    3. price DECIMAL(#, #) NOT NULL,
+    4. PRIMARY KEY (id)
+    5.   );
+    - Used to create a table on the current database
+- DESCRIBE \<name> 
+    - Show details of a table
